@@ -1,13 +1,21 @@
 const app = "I don't do much."
 
+<<<<<<< HEAD
 var kittens = ["Milo", "Otis", "Garfield"];
 
 function destructivelyAppendKitten(name) {
  kittens.push(name)
+=======
+var kittens = ["Milo", "Otis", "Garfield"]
+
+function destructivelyAppendKitten(name) {
+ kittens.shift(name)
+>>>>>>> defd934814e9ca8cd1481ab65b7c7edbb65ed526
   return kittens
 }
 function destructivelyPrependKitten(name) {
   kittens.unshift(name)
+<<<<<<< HEAD
   return kittens
 }
 
@@ -40,3 +48,12 @@ function removeLastKitten(name) {
 }
 
 
+=======
+  returns (kittens)
+}
+
+function appendKitten(name) {
+  kittens.unshift(name)
+  return kittens
+}
+>>>>>>> defd934814e9ca8cd1481ab65b7c7edbb65ed526
